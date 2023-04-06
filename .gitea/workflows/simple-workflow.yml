@@ -1,4 +1,4 @@
-name: "Simple Workflow"
+name: "A simple workflow"
 
 on:
   pull_request:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    name: "Run a simple job"
+    name: "A simple job"
     runs-on: ubuntu-latest
     steps:
       - name: "Clone project repository"
