@@ -16,7 +16,7 @@ jobs:
       - name: "Execute a simple command"
         run: echo "Hello world"
       - name: "Install Python"
-        uses: actions/setup-python@v4
+        uses: telackey/setup-python@v4
         with:
           python-version: '3.8'
       - name: "Check Python version"
